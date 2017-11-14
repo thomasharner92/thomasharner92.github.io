@@ -1,0 +1,92 @@
+/* Nothing here yet */
+
+.padding {
+    padding:80px;
+}
+
+.container.nomargin {
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+#Splashpage footer {
+    font-family:'Ubuntu', sans-serif;
+    font-size: 1em;
+    color:Black;
+    padding:10px;
+    line-height: 5px;
+}
+
+
+body {
+    font-family:'Ubuntu',sans-serif;
+}
+
+.title{
+    font-size:5em;
+    
+}
+
+#header {
+    background-image: url("../assets/splashpageMap.jpg.png");
+    color:black;
+    opacity: .7;
+}
+
+
+.glyphicon {
+    color:#16a085;
+    font-size:5em;
+}
+
+
+
+
+
+
+.description {
+    line-height: 10%;
+}
+
+
+
+.navbar {
+    /*background: #34495e;*/
+    background:#ecf0f1;
+    padding:5px;
+    border: 10px;
+    margin-bottom:0px;
+}
+
+
+
+.navbar .navbar-brand{
+    font-weight: 400;
+    font-family:'Ubuntu',sans-serif;
+    /*color: #d35400;*/
+    color: black;
+    opacity: .7;
+    font-size: 2.5em;
+}
+
+.navbar .navbar-brand:hover {
+    /*text-decoration: underline;*/
+    color:#16a085;
+    
+
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    /*text-decoration: underline;*/
+    color:#16a085;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color:black;
+    opacity: .7;
+    font-size: 1.5em;
+
+    
+}
+
