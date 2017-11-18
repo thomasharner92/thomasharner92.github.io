@@ -30,7 +30,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="myNavbar">
       <ol class="nav navbar-nav navbar-right">
-        <li><a href="#">About</a></li>
+        <!--<li><a href="#">About</a></li>-->
         <li><a href="portfolioFile.html">Portfolio</a></li>
         <li><a href="ContactPage.html">Contact</a></li>
       </ol>
@@ -43,74 +43,122 @@
           <span class="glyphicon glyphicon-globe"></span>
           </section>
           
-          <hr><br>
-    
+         
 
   <section id ="Portfolio_Page" class='text-center'>
       <div class="container">
           
-          <div class="row">
+          <div class="row" style="padding:30px;">
           
-          <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="col-md-4 col-sm-6 col-xs-12 col-centered">
               <div class="portfolio-item">
-              <img class= 'img-thumbnail' src="assets/bikeMap.jpg" width='360' height='260'
-                   alt='portfolio-item'>
+              <a data-toggle="modal" data-target="#myModal"><img class= 'img-thumbnail' src="http://via.placeholder.com/360x260" width='360' height='260' alt='portfolio-item' ></a>
+                  
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Bike Tour Map</h4>
+                  </div>
+                  <div class="modal-body">
+                   <img src="assets/bikeMap.jpg" style="width:95%;"/>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
               </div>
-              <p class='portfolioHeader'> Bike Tour Map</p>
-              <p class='portfolioDesc'>Details of a fictional bike race
-              through the Southwestern United States and up the California
-              coast. Terrain created using Photoshop, map styling done
-              via Adobe Illustrator.</p>
+            </div>
+                  
+          <p class='portfolioHeader'> Bike Tour Map</p>
+          <p class='portfolioDesc'>Details of a fictional bike race
+          through the Southwestern United States and up the California
+          coast. Terrain created using Photoshop, map styling done
+          via Adobe Illustrator.</p>
+        </div>
+
 
               </div>
               
-              <div class = "col-md-4 col-sm-6 col-xs-12">
+
+              
+              <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
                   <div class="portfolio-item">
-              <img class= 'img-thumbnail' src="assets/infographic.JPG" width='360' height='260'
-                   alt='portfolio-item'>
+                <a data-toggle="modal" data-target="#climateChange"> <img class= 'img-thumbnail' src="http://via.placeholder.com/360x260" width='360' height='260' alt='portfolio-item'></a>
+                      
+                <!-- Modal -->
+                <div id="climateChange" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Localized Impact of Climate Change on Personal Opinion</h4>
+                      </div>
+                      <div class="modal-body">
+                       <img src="assets/GEOG572_Harner_Infographic-01.png" style="width:100%;"/>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
                   </div>
+                </div>
+                      
                   <p class='portfolioHeader'> Climate Change Infographic</p>
                   <p class='portfolioDesc'>Study of the increase in 
                   US temperature by county in the past 30 years, relative
                   to each county's opinion on the impacts of climate
                   change. Created using Adobe Illustrator.</p>
+                  </div>
 
               </div>
               
-              <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="col-md-4 col-sm-6 col-xs-12 col-centered">
                   <div class="portfolio-item">
-              <img class= 'img-thumbnail' src="assets/mapboxproject.JPG" width='360' height='260'
+                      <a href="https://thomasharner92.github.io/575_Final_Project/" target="_blank">
+              <img class= 'img-thumbnail' src="http://via.placeholder.com/360x260" width='360' height='260'
                    alt='portfolio-item'>
-                  </div>
+                          </a>
                   <p class='portfolioHeader'> Crowdsourced Data Comp.</p>
                   <p class='portfolioDesc'>Slider web map detailing the
                   differences in crowd-sourced OpenStreetMap data for
                   three Virginia counites relative to local government.
                   Created with MapboxGL.</p>
+                </div>
                   
 <!--
                   https://thomasharner92.github.io/575_Final_Project/
 -->
 
           </div>
-              </div>
+             
           
           <!--clearfix visible-sm-block -->
           
 <!--30 px gap between each row-->
           <div class="margin"></div>
           
-          <div class="row">
+        
           
-          <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="col-md-4 col-sm-6 col-xs-12 col-centered">
               <div class="portfolio-item">
-              <img class= 'img-thumbnail' src="assets/mlb.JPG" width='360' height='260'
+                  <a href="https://thomasharner92.github.io/lab1_final/" target="_blank">
+              <img class= 'img-thumbnail' src="http://via.placeholder.com/360x260" width='360' height='260'
                    alt='portfolio-item'>
-              </div>
+                  </a>
               <p class='portfolioHeader'> MLB Team Performance</p>
               <p class='portfolioDesc'>Temporal web map detailing
               wins relative to team attendance for each Major League
               Baseball team from 2011-2016. Created with Leaflet.</p>
+            </div>
               
 <!--
               https://thomasharner92.github.io/lab1_final/
@@ -118,27 +166,49 @@
 
               </div>
               
-              <div class = "col-md-4 col-sm-6 col-xs-12">
+              <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
                   <div class="portfolio-item">
-              <img class= 'img-thumbnail' src="assets/SensationalistFinal.jpg" width='360' height='260'
-                   alt='portfolio-item'>
+              <a data-toggle="modal" data-target="#sensationalistMap"> <img class= 'img-thumbnail' src="http://via.placeholder.com/360x260" width='360' height='260' alt='portfolio-item'></a>
+
+                <!-- Modal -->
+                <div id="sensationalistMap" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Drone Strikes in the Middle East</h4>
+                      </div>
+                      <div class="modal-body">
+                       <img src="assets/SensationalistFinal.jpg" style="width:100%;"/>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
                   </div>
+                </div>
                   <p class='portfolioHeader'> Sensationalist Map</p>
                   <p class='portfolioDesc'>A map the uses visually striking,
                       emotive imagery in order to appeal
                   to american citizens to support drone strikes across
                   the Middle East. Created using Adobe Illustrator.</p>
               </div>
+              </div>
               
-              <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="col-md-4 col-sm-6 col-xs-12 col-centered">
                   <div class="portfolio-item">
-              <img class= 'img-thumbnail' src="assets/nzealand.JPG" width='360' height='260'
+                      <a href="https://thomasharner92.github.io/lab2_d3/" target="_blank">
+              <img class= 'img-thumbnail' src="http://via.placeholder.com/360x260" width='360' height='260'
                    alt='portfolio-item'>
-                  </div>
+                          </a>
                   <p class='portfolioHeader'> D3 Project</p>
                   <p class='portfolioDesc'>A project testing the D3 library
                       for data visualization of New Zealand sample data
                       using vector data with dynamic labels and charts.</p>
+                </div>
                   
 <!--
                   https://thomasharner92.github.io/lab2_d3/
@@ -146,25 +216,20 @@
                   
                   <!--http://www.arcgis.com/apps/MapTour/?appid=78e87a6da74d4efc9aea1379543a2852-->
 
-          </div>
-              </div>
-          
-          
-          
-          
-          
-          
+                </div>
+
           
           
           </div>
+      </div>
     </section>
     
   <!-- end #content -->
   
-  <footer>
+  <!--<footer>
     <p>© Thomas Test</p>
     <p>last updated: November 21, 2017</p>
-  </footer>
+  </footer>-->
 
 <!-- end #wrapper -->
 <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>

@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 /* Nothing here yet */
 
 .padding {
     padding:80px;
 }
-
 
 
 
@@ -58,12 +59,18 @@ body {
     background-image: url("../assets/splashpageMap.jpg.png");
     color:black;
     opacity: .7;
+    padding-top: 10px; 
+    padding-bottom: 20px; 
 }
 
 
 .glyphicon {
     color:#16a085;
     font-size:5em;
+}
+
+.subtitle{
+    margin-top: 0px; 
 }
 
 
@@ -170,7 +177,7 @@ body {
 /* Adjust the button margins*/
 #contact .social_links>li {
     
-    margin:25px 12px;
+    margin:25px 0px;
     
     
 }
@@ -182,14 +189,15 @@ body {
     transition: all .5s;
 }
 
-/* This is how you force the images to a size - that and del thumbnail tag (just use imgsrc)
+/* This is how you force the images to a size - that and del thumbnail tag (just use imgsrc)*/
+
 #Portfolio_Page .portfolio-item {
     
-    height: 250px;
-    width: 360px;
-    background-color: aqua;
+    height: 400px;
+    margin-bottom: 30px;
+ 
 }
-*/
+
 
 /*
 #Portfolio_Page .img-thumbnail {
@@ -216,6 +224,30 @@ body {
         
 }
 
+#about{
+    padding: 40px 0px; 
+    background-color:#ecf0f1;
+}
+
+button, .download{
+    border-style:none; 
+    background-color: #16a085;
+    border-radius: 3px; 
+    color: white; 
+    padding: 5px 10px; 
+}
+
+.modal-content{
+    width: 800px; 
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #000; 
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: #fff;
+}
 
 
 
