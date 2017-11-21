@@ -6,6 +6,23 @@
     padding:80px;
 }
 
+#aboutMePic {
+    padding-top:40px;
+}
+
+#aboutmeHeader {
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+#aboutme {
+    color:black;
+    font-weight: 700;
+    font-size: 1em;
+    opacity:0.7;
+}
+
 
 
 

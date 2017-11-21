@@ -69,20 +69,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img class="img-responsive" src="assets/headshot.jpg">
+                    <div id = "aboutMePic">
+                    <img class="img-responsive" src="assets/california_headshot.jpg">
+                        </div>
                 </div>
                 
                 <div class="col-sm-6">
-                <h2>About Me</h2>
+                <!--<h2>About Me</h2>-->
+                <div id="aboutmeHeader">
+                <p> About Me</p>
+                    </div>
   
+                <div id="aboutme">
                 <p> My name is Thomas Harner, and I am currently living in Burke, VA. I graduated with a B.S. in Geographic Information Systems from James Madision University in 2015, and since then I have been working full-time as a Geographer for the US Army Corps of Engineers. I am also enrolled as a part-time student working towards my M.S. in GIS Web Map Programming with the University of Wisconsin-Madison. 
                 </p>
                     
-                <p>The majority of my work consists of working with geospatial programming libraries to build optimized data storage solutions for military-based routing sytems and Helicopter Landing Zones (HLZs). My team is a big believer in open source solutions, so I have been working primarily with Java, Python, and their GDAL bindings to design an API that's configured to build networks for routing and regions for HLZ selection compressed into a SQLite database. I have spent an extensive amount of time working with Open Street Map data as well, studying the native format (XML) and learning to parse it to add customized attributes for routing so that it works with our routing solvers. </p>
+                <p>The majority of my work consists of working with geospatial programming libraries to build attributed routing networks for Army vehicles and preferred Helicopter Landing Zone outputs. </p>
                 
-                <p> As a current student, I have worked to greatly build my web development capabilities, familiarizing myself with JavaScript, HTML, and CSS, and using them to build web maps using the MapBox, Leaflet, and ESRI APIs. I have also worked with spatial database administration using PostrgreSQL and taken Python courses to enhance my understanding of using scripting to speed up simple tasks.</p>
+                <p> As a current student, I have worked to  build my web development capabilities, learning to build web maps using the MapBox, Leaflet, and ESRI APIs. Other coursework has included spatial database administration using PostrgreSQL and Python scripting.</p>
                 
-                <p> In my spare time, I enjoy running, kayaking, and hiking around Northern Virginia and the Shenandoah Valley with my fiancee. We have also visited more than 50 wineries across the state of Virginia, and are planning a wedding at one for Summer of 2018. Thank you for visiting, and feel free to check out my Resume below or some of my sample work in the Portfolio section! </p>
+                <p> In my spare time, I enjoy running, kayaking, and hiking around Northern Virginia and the Shenandoah Valley. My fiancee and I are also wine enthusiasts, having visited nearly 50 vineyards in the state of Virgina. Thank you for visiting, and feel free to view my resume below or browse my portfolio samples! </p></div>
                     
                 <button data-toggle="modal" data-target="#resume">RESUME</button>
                     
@@ -94,7 +100,6 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Modal Header</h4>
                       </div>
                       <div class="modal-body">
                         <img src="assets/resume.png" style="width:95%" />
