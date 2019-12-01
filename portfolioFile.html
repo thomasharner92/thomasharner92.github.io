@@ -40,7 +40,6 @@
     
     <section id="header" class='text-center'>
           <h1 class='title'>Work Samples</h1>
-          <span class="glyphicon glyphicon-globe"></span>
           </section>
           
          
@@ -139,19 +138,36 @@
           
 <!--30 px gap between each row-->
           <div class="margin"></div>
-          
-        
-          
-          <div class="col-md-4 col-sm-6 col-xs-12 col-centered">
-              <div class="portfolio-item">
-                  <a href="https://thomasharner92.github.io/lab1_final/" target="_blank">
-              <img class= 'img-thumbnail' src="assets/img%2003%20-%20leaflet.png" width='360' height='260'
-                   alt='portfolio-item'>
-                  </a>
-              <p class='portfolioHeader'> MLB Team Attendance</p>
-              <p class='portfolioDesc'>Temporal web map detailing
-              wins relative to team attendance for each Major League
-              Baseball team from 2011-2016.</p>
+
+            <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
+                <div class="portfolio-item">
+            <a data-toggle="modal" data-target="#nitrateApp"> <img class= 'img-thumbnail' src="assets/GEOG_777_Nitrates.png" width='360' height='260' alt='portfolio-item'></a>
+
+              <!-- Modal -->
+              <div id="nitrateApp" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Nitrate Interpolation Web Application</h4>
+                    </div>
+                    <div class="modal-body">
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Vc4vRmhfP4I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+                <p class='portfolioHeader'> Nitrate Interpolation Web Application</p>
+                <p class='portfolioDesc'>Web Application that uses Java, Postgres, GeoServer, and
+                    OpenLayers to dynamically build hexbins to interpolate cancer rates for nitrate
+                    concentrations throughout the state of Wisconsin.</p>
+            </div>
             </div>
               
 <!--
@@ -189,22 +205,39 @@
               </div>
               </div>
               
-              <div class="col-md-4 col-sm-6 col-xs-12 col-centered">
+              <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
                   <div class="portfolio-item">
-                      <a href="https://thomasharner92.github.io/lab2_d3/" target="_blank">
-              <img class= 'img-thumbnail' src="assets/img%2002%20-%20d3%20project.png" width='360' height='260'
-                   alt='portfolio-item'>
-                          </a>
-                  <p class='portfolioHeader'> D3 Project</p>
-                  <p class='portfolioDesc'>An exploration of five different New Zealand Census statistics from 2013 using D3's chart generation and mapping capabilities.</p>
+              <a data-toggle="modal" data-target="#letchworthApp"> <img class= 'img-thumbnail' src="assets/GEOG_777_Letchworth.PNG" width='360' height='260' alt='portfolio-item'></a>
+  
+                <!-- Modal -->
+                <div id="letchworthApp" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Letchworth State Park Web Application</h4>
+                      </div>
+                      <div class="modal-body">
+                       <iframe width="560" height="315" src=https://www.youtube.com/embed/YZbCvVWeIdM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+  
+                  </div>
                 </div>
-                  
-<!--
-                  https://thomasharner92.github.io/lab2_d3/
--->
-
-
-                </div>
+                  <p class='portfolioHeader'> Nitrate Interpolation Web Application</p>
+                  <p class='portfolioDesc'>Web Application that provides a guided tour of
+                    Letchworth State Park in Wyoming County New York. Uses Postgres, GeoServer,
+                    and OpenLayers for trail querying and WFS feature editing to update status
+                    reports on features throughout the park.
+                  </p>
+              </div>
+              </div>
+              
 
           
           
