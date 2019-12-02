@@ -6,36 +6,24 @@
                                initial-scale=1">
 <title>Thomas Harner</title>
 <meta name=”keywords” content=”buzzword, buzzword, buzzword/>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 
 <body>
     
-   <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
-        <!--<span class="sr-only">Toggle navigation</span>-->
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Thomas Harner</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home</a>
+        <a class="nav-item nav-link active" href="portfolioFile.html">Portfolio <span class="sr-only">(current)</span></a>
+      </div>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ol class="nav navbar-nav navbar-right">
-        <!--<li><a href="#">About</a></li>-->
-        <li><a href="portfolioFile.html">Portfolio</a></li>
-        <li><a href="ContactPage.html">Contact</a></li>
-      </ol>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
 </nav> 
     
     <section id="header" class='text-center'>
@@ -46,12 +34,124 @@
 
   <section id ="Portfolio_Page" class='text-center'>
       <div class="container">
+        <div class="row">
           
-          <div class="row" style="padding:30px;">
+              <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
+                  <div class="portfolio-item">
+              <a data-toggle="modal" data-target="#FairfaxApp"> <img class= 'img-thumbnail' src="assets/GEOG_778_Web_Application.PNG" width='360' height='260' alt='portfolio-item'></a>
+  
+                <!-- Modal -->
+                <div id="FairfaxApp" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!--<h4 class="modal-title">Letchworth State Park Web Application</h4>-->
+                      </div>
+                      <div class="modal-body">
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/lQLqPUUTbeQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+                  <p class='portfolioHeader'>Fairfax County Data Editing Application</p>
+                  <p class='portfolioDesc'>Web Application that provides Fairfax County
+                    officials the ability to use various widgets within the ArcGIS JavaScript API
+                    to compare and edit their data to OpenStreetMap data via viewing Feature
+                    Services.
+                  </p>
+              </div>
+              </div>
+
+              <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
+                  <div class="portfolio-item">
+              <a data-toggle="modal" data-target="#letchworthApp"> <img class= 'img-thumbnail' src="assets/GEOG_777_Letchworth.PNG" width='360' height='260' alt='portfolio-item'></a>
+  
+                <!-- Modal -->
+                <div id="letchworthApp" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!--<h4 class="modal-title">Letchworth State Park Web Application</h4>-->
+                      </div>
+                      <div class="modal-body">
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/YZbCvVWeIdM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+                  <p class='portfolioHeader'>Letchworth State Park Visitors Guide</p>
+                  <p class='portfolioDesc'>Web Application that provides a guided tour of
+                    Letchworth State Park. Uses Postgres, GeoServer,
+                    and OpenLayers for trail querying and WFS feature editing to update status
+                    reports on features throughout the park.
+                  </p>
+              </div>
+              </div>
+
+              <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
+                  <div class="portfolio-item">
+              <a data-toggle="modal" data-target="#nitrateApp"> <img class= 'img-thumbnail' src="assets/GEOG_777_Nitrates.png" width='360' height='260' alt='portfolio-item'></a>
+  
+                <!-- Modal -->
+                <div id="nitrateApp" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+  
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <!--<h4 class="modal-title">Nitrate Interpolation Web Application</h4>-->
+                      </div>
+                      <div class="modal-body">
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/Vc4vRmhfP4I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+                  <p class='portfolioHeader'> Nitrate Interpolation Application</p>
+                  <p class='portfolioDesc'>Web Application that uses Java, Postgres, GeoServer, and
+                      OpenLayers to dynamically build hexbins to interpolate cancer rates for nitrate
+                      concentrations throughout the state of Wisconsin.</p>
+              </div>
+              </div>
+
+              <div class="col-md-4 col-sm-6 col-xs-12 col-centered">
+                  <div class="portfolio-item" id="bioshock">
+                      <a href="https://api.mapbox.com/styles/v1/thomasharner/cjb4ao2v46zlg2spg7ukuegnb.html?fresh=true&title=view&access_token=pk.eyJ1IjoidGhvbWFzaGFybmVyIiwiYSI6ImNqMXA2dTY2OTAwZnUycnJ3MzhtYWc5NHAifQ.JYDW8uR0odthCOHngoNqUg#3.0/39.837785/-90.789869/360" target="_blank">
+              <img id="bioshockimg" class= 'img-thumbnail' src="assets/GEOG_575_Tileset.PNG" width='360' height='260'
+                   alt='portfolio-item'>
+                          </a>
+                  <p class='portfolioHeaderBioshock'>Bioshock-Themed Mapbox Tileset</p>
+                  <p class='portfolioDesc'>Customized tileset in the theme of Bioshock,
+                    created using Mapbox Tile Studio.
+                  </p>
+                </div>
+          </div>
+
+
           
           <div class="col-md-4 col-sm-6 col-xs-12 col-centered">
               <div class="portfolio-item">
               <a data-toggle="modal" data-target="#myModal"><img class= 'img-thumbnail' src="assets/img%2006%20-%20bike%20map.png" width='360' height='260' alt='portfolio-item' ></a>
+              
                   
             <!-- Modal -->
             <div id="myModal" class="modal fade" role="dialog">
@@ -61,7 +161,7 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Bike Tour Map</h4>
+                    <!--<h4 class="modal-title">Bike Tour Map</h4>-->
                   </div>
                   <div class="modal-body">
                    <img src="assets/bikeMap.jpg" style="width:95%;"/>
@@ -80,10 +180,7 @@
           coast.</p>
         </div>
 
-
               </div>
-              
-
               
               <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
                   <div class="portfolio-item">
@@ -97,7 +194,7 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Localized Impact of Climate Change on Personal Opinion</h4>
+                        <!--<h4 class="modal-title">Localized Impact of Climate Change on Personal Opinion</h4>-->
                       </div>
                       <div class="modal-body">
                        <img src="assets/GEOG572_Harner_Infographic-01.png" style="width:100%;"/>
@@ -115,133 +212,10 @@
                   </div>
 
               </div>
-              
-              <div class="col-md-4 col-sm-6 col-xs-12 col-centered">
-                  <div class="portfolio-item">
-                      <a href="https://thomasharner92.github.io/575_Final_Project/" target="_blank">
-              <img class= 'img-thumbnail' src="assets/img%2004%20-%20final.png" width='360' height='260'
-                   alt='portfolio-item'>
-                          </a>
-                  <p class='portfolioHeader'> Crowdsourced Data Comp.</p>
-                  <p class='portfolioDesc'>Slider web map detailing the
-                  differences in crowd-sourced data for
-                  three Virginia counites relative to the data offerings of their local government.
-                  </p>
-                </div>
-                  
-<!--
-                  https://thomasharner92.github.io/575_Final_Project/
--->
-
-          </div>
-
+            
           
-<!--30 px gap between each row-->
-          <div class="margin"></div>
-
-            <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
-                <div class="portfolio-item">
-            <a data-toggle="modal" data-target="#nitrateApp"> <img class= 'img-thumbnail' src="assets/GEOG_777_Nitrates.png" width='360' height='260' alt='portfolio-item'></a>
-
-              <!-- Modal -->
-              <div id="nitrateApp" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-
-                  <!-- Modal content-->
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h4 class="modal-title">Nitrate Interpolation Web Application</h4>
-                    </div>
-                    <div class="modal-body">
-                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Vc4vRmhfP4I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-                <p class='portfolioHeader'> Nitrate Interpolation Web Application</p>
-                <p class='portfolioDesc'>Web Application that uses Java, Postgres, GeoServer, and
-                    OpenLayers to dynamically build hexbins to interpolate cancer rates for nitrate
-                    concentrations throughout the state of Wisconsin.</p>
-            </div>
-            </div>
-              
-<!--
-              https://thomasharner92.github.io/lab1_final/
--->
-
-              </div>
-              
-              <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
-                  <div class="portfolio-item">
-              <a data-toggle="modal" data-target="#sensationalistMap"> <img class= 'img-thumbnail' src="assets/GEOG576.PNG" width='360' height='260' alt='portfolio-item'></a>
-
-                <!-- Modal -->
-                <div id="sensationalistMap" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Geoserver and OpenLayers Project</h4>
-                      </div>
-                      <div class="modal-body">
-                       <iframe width="560" height="315" src="https://www.youtube.com/embed/_58gmwYuTGA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-                  <p class='portfolioHeader'> Geoserver Data Editing Application</p>
-                  <p class='portfolioDesc'>A sample video of a web application I built that enables the real-time comparison and modification of county government data sources relative to Open Street Map data.</p>
-              </div>
-              </div>
-              
-              <div class = "col-md-4 col-sm-6 col-xs-12 col-centered">
-                  <div class="portfolio-item">
-              <a data-toggle="modal" data-target="#letchworthApp"> <img class= 'img-thumbnail' src="assets/GEOG_777_Letchworth.PNG" width='360' height='260' alt='portfolio-item'></a>
-  
-                <!-- Modal -->
-                <div id="letchworthApp" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-  
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Letchworth State Park Web Application</h4>
-                      </div>
-                      <div class="modal-body">
-                       <iframe width="560" height="315" src=https://www.youtube.com/embed/YZbCvVWeIdM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-  
-                  </div>
-                </div>
-                  <p class='portfolioHeader'> Nitrate Interpolation Web Application</p>
-                  <p class='portfolioDesc'>Web Application that provides a guided tour of
-                    Letchworth State Park in Wyoming County New York. Uses Postgres, GeoServer,
-                    and OpenLayers for trail querying and WFS feature editing to update status
-                    reports on features throughout the park.
-                  </p>
-              </div>
-              </div>
-              
-
-          
-          
-          </div>
+      </div>
+      </div>
       </div>
     </section>
     
@@ -253,7 +227,8 @@
   </footer>-->
 
 <!-- end #wrapper -->
-<script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -18,7 +18,7 @@
 
 #aboutme {
     color:black;
-    font-weight: 700;
+    font-weight: 550;
     font-size: 1em;
     opacity:0.7;
 }
@@ -43,6 +43,12 @@
 #Portfolio_Page .portfolioHeader{
     font-weight: 900;
     font-size:1.5em;
+}
+
+.portfolioHeaderBioshock{
+    font-weight: 900;
+    font-size:1.5em;
+    margin-top:10%;
 }
 
 #Portfolio_Page .portfolioDesc{
@@ -73,7 +79,7 @@ body {
 }*/
 
 #header {
-    background-image: url("../assets/splashpageMap.jpg.png");
+    background-image: url("../assets/Fairfax_Banner.PNG");
     color:black;
     opacity: .7;
     padding-top: 10px; 
@@ -165,18 +171,18 @@ body {
 }
 
 /* Submit button regular*/
-#contact .btn-primary{
+.btn-primary{
     background:#16a085;
 }
 
 /* Submit button styling override */
-#contact .btn-primary:hover{
+.btn-primary:hover{
     background:#ecf0f1;
     color:#16a085;
 }
 
 /* Style the social media buttons*/
-#contact .btn-socialMedia {
+.btn-socialMedia {
     display:inline-block;
     width:50px;
     height:50px;
@@ -191,16 +197,26 @@ body {
     
 }
 
+#resumeBtn{
+    position:absolute; right: 0;
+    margin-right:5%;
+}
+
+.social_links{
+    margin-top:10%;
+}
+
 /* Adjust the button margins*/
-#contact .social_links>li {
+.social_links>li {
     
     margin:25px 0px;
+    display: inline;
     
     
 }
 
 /* Change color on hover */
-#contact .social_links>li:hover a{
+.social_links>li:hover a{
     background:#16a085;
     color:#ecf0f1;
     transition: all .5s;
@@ -224,6 +240,11 @@ body {
     
 }
 */
+
+#bioshock {
+    margin-top:5%;
+}
+
 
 #Portfolio_Page .img-thumbnail{
     
