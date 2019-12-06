@@ -45,15 +45,9 @@
     font-size:1.5em;
 }
 
-.portfolioHeaderBioshock{
-    font-weight: 900;
-    font-size:1.5em;
-    margin-top:10%;
-}
-
 #Portfolio_Page .portfolioDesc{
     font-weight:100;
-    font-size:1.0em;
+    font-size:0.7em;
 }
 
 #Splashpage footer {
@@ -181,6 +175,10 @@ body {
     color:#16a085;
 }
 
+.socialmedia{
+    margin-top:20%;
+}
+
 /* Style the social media buttons*/
 .btn-socialMedia {
     display:inline-block;
@@ -241,9 +239,7 @@ body {
 }
 */
 
-#bioshock {
-    margin-top:5%;
-}
+
 
 
 #Portfolio_Page .img-thumbnail{
